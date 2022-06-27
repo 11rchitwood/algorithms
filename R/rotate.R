@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' rotate(1:5, 1)
+#' rotate(1:5, 2)
 rotate <- function(x, i) {
   c(x[i], x[-i])
 }

@@ -1,24 +1,16 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # algorithms
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/algorithms)](https://CRAN.R-project.org/package=algorithms)
-[![Codecov test coverage](https://codecov.io/gh/11rchitwood/algorithms/branch/master/graph/badge.svg)](https://app.codecov.io/gh/11rchitwood/algorithms?branch=master)
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/algorithms)](https://CRAN.R-project.org/package=algorithms)
+[![Codecov test
+coverage](https://codecov.io/gh/11rchitwood/algorithms/branch/master/graph/badge.svg)](https://app.codecov.io/gh/11rchitwood/algorithms?branch=master)
 [![R-CMD-check](https://github.com/11rchitwood/algorithms/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/11rchitwood/algorithms/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -37,7 +29,8 @@ devtools::install_github("11rchitwood/algoritms")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(algorithms)
 rotate(1:5, 2)
+#> [1] 2 1 3 4 5
 ```

@@ -1,10 +1,11 @@
 Package: algorithms
-Title: What the Package Does (One Line, Title Case)
+Title: Common Algorithms in R
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R:
+    person("Ryan", "Chitwood", role = c("aut", "cre"),
+           email = "26073857+11rchitwood@users.noreply.github.com", 
+           comment = c(ORCID = "0000-0002-0255-5603"))
+Description: An implementation of common algoritms in R.
 License: MIT + file LICENSE
 Suggests: 
     covr,
