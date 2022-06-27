@@ -1,9 +1,9 @@
-#' Rotate
+#' Scan
 #'
 #' @param x a vector
 #' @param f a function
 #'
-#' @return
+#' @return a vector
 #' @export
 #'
 #' @examples

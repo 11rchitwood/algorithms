@@ -11,6 +11,9 @@ rotate(x, i)
 
 \item{i}{indices}
 }
+\value{
+a vector
+}
 \description{
 Rotate
 }

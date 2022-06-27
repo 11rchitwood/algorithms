@@ -3,7 +3,7 @@
 #' @param x a vector
 #' @param i indices
 #'
-#' @return
+#' @return a vector
 #' @export
 #'
 #' @examples

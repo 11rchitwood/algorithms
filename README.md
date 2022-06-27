@@ -31,6 +31,13 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(algorithms)
+#> 
+#> Attaching package: 'algorithms'
+#> The following object is masked from 'package:base':
+#> 
+#>     scan
 rotate(1:5, 2)
 #> [1] 2 1 3 4 5
+scan(1:5, "+")
+#> [1]  1  3  6 10 15
 ```
