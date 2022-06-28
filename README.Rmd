@@ -39,6 +39,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(algorithms)
-rotate(1:5, 2)
+reduce(1:5, "+")
 scan(1:5, "+")
+rotate(1:5, 2)
 ```

@@ -1,4 +1,4 @@
-#' Scan
+#' Reductions
 #'
 #' @param x a vector
 #' @param f a function
@@ -7,7 +7,5 @@
 #' @export
 #'
 #' @examples
-#' scan(1:5, "+")
-scan <- function(x, f) {
-  Reduce(f, x, accumulate = TRUE)
-}
+#' reduce(1:5, "+")
+reduce <- function(x, f) Reduce(f, x)
