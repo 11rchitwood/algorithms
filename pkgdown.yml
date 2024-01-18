@@ -1,8 +1,8 @@
-pandoc: 2.14.2
-pkgdown: 2.0.5
+pandoc: 2.19.2
+pkgdown: 2.0.7
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-06-28T20:03Z
+last_built: 2024-01-18T21:26Z
 urls:
   reference: https://11rchitwood.github.io/algorithms/reference
   article: https://11rchitwood.github.io/algorithms/articles
