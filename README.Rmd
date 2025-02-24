@@ -16,18 +16,17 @@ knitr::opts_chunk$set(
 # algorithms
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/algorithms)](https://CRAN.R-project.org/package=algorithms)
 <!-- badges: end -->
 
 The goal of algorithms is to ...
 
 ## Installation
 
-You can install the development version of algorithms like so:
+You can install the development version of algorithms from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")
+pak::pak("11rchitwood/algorithms")
 ```
 
 ## Example
